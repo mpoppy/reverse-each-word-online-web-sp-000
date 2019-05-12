@@ -6,5 +6,5 @@ def reverse_each_word(sentence) #inputs a string as an argument
     sentence_array.each do |word|
       reverse_array << word.reverse
     end
-    reverse_array
+    reverse_array.join
 end
