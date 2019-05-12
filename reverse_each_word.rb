@@ -5,4 +5,6 @@ def reverse_each_word(sentence) #inputs a string as an argument
     reverse_array = []
     sentence_array.each do |word|
       reverse_array << word.reverse
+    end
+    reverse_array
 end
