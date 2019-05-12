@@ -8,3 +8,9 @@ def reverse_each_word(sentence) #inputs a string as an argument
     end
     reverse_array.join(" ")
 end
+
+def reverse_each_word(sentence)
+  sentence_array = sentence.split
+  sentence.array.map do |word|
+    word.reverse
+end
