@@ -12,7 +12,8 @@ end
 def reverse_each_word(sentence)
   sentence_array = sentence.split
   sentence_array.map do |word|
-    word.reverse.join(" ")
+    word.reverse
     #this is returning the reversed array, so how to i now join to a string
+    sentence_array.join(" ")
   end
 end
